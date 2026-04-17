@@ -1,0 +1,167 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1776408368898,
+  "projectRoot": "E:\\aiwork\\spec-dev\\sdd",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "specs": {
+      "path": "specs",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1776408368794,
+      "keyFiles": [
+        "mission.md",
+        "roadmap.md",
+        "tech-stack.md"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "specs\\2026-04-17-agent-health-foundation\\requirements.md",
+      "accessCount": 1,
+      "lastAccessed": 1776408403956,
+      "type": "file"
+    },
+    {
+      "path": "specs\\2026-04-17-agent-health-foundation\\validation.md",
+      "accessCount": 1,
+      "lastAccessed": 1776408403987,
+      "type": "file"
+    },
+    {
+      "path": "specs\\2026-04-17-agent-health-foundation\\plan.md",
+      "accessCount": 1,
+      "lastAccessed": 1776408404006,
+      "type": "file"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "accessCount": 1,
+      "lastAccessed": 1776408516358,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1776408517046,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.base.json",
+      "accessCount": 1,
+      "lastAccessed": 1776408517727,
+      "type": "file"
+    },
+    {
+      "path": ".env.example",
+      "accessCount": 1,
+      "lastAccessed": 1776408519040,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\package.json",
+      "accessCount": 1,
+      "lastAccessed": 1776408580240,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1776408581132,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\package.json",
+      "accessCount": 1,
+      "lastAccessed": 1776408581804,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1776408582416,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\vite.config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776408583061,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\tailwind.config.js",
+      "accessCount": 1,
+      "lastAccessed": 1776408583678,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\postcss.config.js",
+      "accessCount": 1,
+      "lastAccessed": 1776408584362,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\index.html",
+      "accessCount": 1,
+      "lastAccessed": 1776408608309,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\main.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776408609222,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\App.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776408610013,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\index.css",
+      "accessCount": 1,
+      "lastAccessed": 1776408610623,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\vite-env.d.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776408611247,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776408611905,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
