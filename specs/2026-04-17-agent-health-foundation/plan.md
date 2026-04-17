@@ -12,14 +12,14 @@
 
 ## 2. Database & Schema
 
-2.1 Configure Drizzle in `apps/api` with `drizzle.config.ts` pointing to a local SQLite file (`data/agentclinic.db`).
-2.2 Define schema files:
+- [x] 2.1 Configure Drizzle in `apps/api` with `drizzle.config.ts` pointing to a local SQLite file (`data/agentclinic.db`).
+- [x] 2.2 Define schema files:
   - `apps/api/src/db/schema/agents.ts`
   - `apps/api/src/db/schema/ailments.ts`
   - `apps/api/src/db/schema/therapies.ts`
-2.3 Create initial Drizzle migration and a helper script (`db:migrate`).
-2.4 Add a database client singleton (`apps/api/src/db/client.ts`).
-2.5 Write a seed script (`apps/api/src/db/seed.ts`) that inserts sample agents, ailments, and therapies.
+- [x] 2.3 Create initial Drizzle migration and a helper script (`db:migrate`).
+- [x] 2.4 Add a database client singleton (`apps/api/src/db/client.ts`).
+- [x] 2.5 Write a seed script (`apps/api/src/db/seed.ts`) that inserts sample agents, ailments, and therapies.
 
 ## 3. Backend API
 
