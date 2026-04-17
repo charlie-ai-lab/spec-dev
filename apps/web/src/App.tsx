@@ -1,13 +1,21 @@
+import { Routes, Route } from 'react-router-dom'
+import { Layout } from './components/Layout'
+import { AgentsPage } from './pages/AgentsPage'
+import { AgentDetailPage } from './pages/AgentDetailPage'
+import { AilmentsPage } from './pages/AilmentsPage'
+import { TherapiesPage } from './pages/TherapiesPage'
+
 function App() {
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900">
-      <header className="bg-primary-600 text-white py-4 px-6">
-        <h1 className="text-xl font-semibold">AgentClinic</h1>
-      </header>
-      <main className="p-6">
-        <p className="text-slate-600">Dashboard coming soon.</p>
-      </main>
-    </div>
+    <Layout>
+      <Routes>
+        <Route path="/" element={<AgentsPage />} />
+        <Route path="/agents" element={<AgentsPage />} />
+        <Route path="/agents/:id" element={<AgentDetailPage />} />
+        <Route path="/ailments" element={<AilmentsPage />} />
+        <Route path="/therapies" element={<TherapiesPage />} />
+      </Routes>
+    </Layout>
   )
 }
 

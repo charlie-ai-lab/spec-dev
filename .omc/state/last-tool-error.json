@@ -1,7 +1,0 @@
-{
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"cd /e/aiwork/spec-dev/sdd/apps/api && pnpm typecheck\",\"description\":\"Typecheck API app\"}",
-  "error": "Exit code 1\n\n> api@0.1.0 typecheck E:\\aiwork\\spec-dev\\sdd\\apps\\api\n> tsc --noEmit\n\nsrc/tests/api.test.ts(6,7): error TS6133: 'db' is declared but its value is never read.\r\n ELIFECYCLE  Command failed with exit code 2.",
-  "timestamp": "2026-04-17T07:31:10.872Z",
-  "retry_count": 2
-}
