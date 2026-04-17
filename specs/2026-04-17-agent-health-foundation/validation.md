@@ -27,45 +27,38 @@
 
 ## Manual Walkthrough
 
-> **Partially Verified**: TypeScript checks and tests pass. Manual walkthrough pending.
+### API Manual Tests (Completed via curl)
+- [x] `GET /health` returns 200 `{"status":"ok"}`
+- [x] `POST /agents` returns 201 with UUID id
+- [x] `GET /agents/:id` returns 200 with ailments and therapies arrays
+- [x] `POST /ailments` with invalid severity returns 400 with human-readable error
+- [x] `POST /therapies` with non-existent agentId returns 404
+- [x] `PATCH /ailments/:id` with `status: "closed"` sets `closedAt` to non-null timestamp
+- [x] `DELETE /agents/:id` cascades and removes related ailments and therapies
 
-### End-to-End Flow
+### Frontend Manual Walkthrough (Requires browser)
 1. Run `pnpm dev` from the project root.
 2. Open `http://localhost:5173` (Vite dev server).
-3. **Agent onboarding**:
-   - Click "Add Agent".
-   - Fill name, type, status, description; submit.
-   - Verify the new agent appears in the agents table within 1 second.
-4. **Ailment logging**:
-   - Navigate to the new agent's detail page.
-   - Click "Log Ailment".
-   - Enter symptom, choose severity, submit.
-   - Verify the ailment appears under the agent with status "open".
-5. **Therapy recording**:
-   - Click "Record Therapy".
-   - Select the ailment just created, choose method, result "in_progress", add notes, submit.
-   - Verify the therapy appears in the therapies table with correct agent and ailment names.
-6. **Ailment closure**:
-   - Edit the ailment and change status to "closed".
-   - Verify the status badge updates and a closed timestamp is shown.
-7. **Agent deletion**:
-   - Delete the agent from the agents list.
-   - Verify the agent and all related ailments/therapies are removed from the UI.
+3. **Agent onboarding**: Click "Add Agent", fill form, submit, verify in table.
+4. **Ailment logging**: Navigate to agent detail, click "Log Ailment", submit.
+5. **Therapy recording**: Click "Record Therapy", select ailment, submit.
+6. **Ailment closure**: Edit ailment, change status to "closed", verify timestamp.
+7. **Agent deletion**: Delete agent, verify cascade removal in UI.
 
 ### Edge Cases
-- [ ] Submitting an empty form shows validation errors inline (no blank page or console crash).
-- [ ] Attempting to create an agent with a duplicate name is allowed (no unique constraint on name).
-- [ ] Navigating directly to `/agents/non-existent-id` shows a graceful "Not Found" message.
+- [ ] Submitting an empty form shows validation errors inline.
+- [ ] Duplicate agent names are allowed (no unique constraint).
+- [ ] Navigating to `/agents/non-existent-id` shows "Not Found" message.
 
 ## Tone & Copy Check
-- [ ] All user-facing labels are consistent: "Log Ailment" (not "Add Ailment"), "Record Therapy" (not "Add Therapy"), "Agent" (not "User" or "Patient").
-- [ ] Error messages are human-readable (e.g., "Severity must be low, medium, or high").
-- [ ] No placeholder text like "lorem ipsum" remains in the UI.
+- [ ] Labels consistent: "Log Ailment", "Record Therapy", "Agent"
+- [ ] Error messages are human-readable
+- [ ] No placeholder text like "lorem ipsum"
 
 ## Definition of Done
 
-- [x] All automated checks pass. *(tsc --noEmit passed for api and web; vitest 6/6 tests passed)*
-- [ ] Manual walkthrough completes without errors. *(Pending: requires running app)*
-- [ ] Dashboard renders correctly in Chrome, Firefox, and Edge (latest versions).
+- [x] All automated checks pass. *(tsc --noEmit passed; vitest 6/6 passed; curl API tests passed)*
+- [ ] Manual frontend walkthrough completes without errors. *(Pending: requires browser)*
+- [ ] Dashboard renders correctly in Chrome, Firefox, and Edge.
 - [ ] Operator can register an agent, log an ailment, and record a therapy in under 2 minutes.
 - [x] Code is committed to the `phase-1-agent-health-foundation` branch.
