@@ -44,8 +44,8 @@
   "hotPaths": [
     {
       "path": "specs\\2026-04-17-agent-health-foundation\\plan.md",
-      "accessCount": 8,
-      "lastAccessed": 1776411154432,
+      "accessCount": 10,
+      "lastAccessed": 1776412522161,
       "type": "file"
     },
     {
@@ -109,6 +109,12 @@
       "type": "file"
     },
     {
+      "path": "package.json",
+      "accessCount": 2,
+      "lastAccessed": 1776412556806,
+      "type": "file"
+    },
+    {
       "path": "specs\\2026-04-17-agent-health-foundation\\requirements.md",
       "accessCount": 1,
       "lastAccessed": 1776408403956,
@@ -124,12 +130,6 @@
       "path": "pnpm-workspace.yaml",
       "accessCount": 1,
       "lastAccessed": 1776408516358,
-      "type": "file"
-    },
-    {
-      "path": "package.json",
-      "accessCount": 1,
-      "lastAccessed": 1776408517046,
       "type": "file"
     },
     {
