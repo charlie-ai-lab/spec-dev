@@ -66,8 +66,8 @@
 
 ## 5. Polish & Developer Experience
 
-5.1 Add a root `dev` script that runs the API and the web dev server concurrently.
-5.2 Ensure the API CORS configuration allows the Vite dev server origin.
-5.3 Verify all TypeScript compiles without errors (`tsc --noEmit` in both apps).
-5.4 Run lint and format passes (ESLint + Prettier).
-5.5 Update `README.md` with setup instructions and a one-liner to start the project.
+- [x] 5.1 Add a root `dev` script that runs the API and the web dev server concurrently.
+- [x] 5.2 Ensure the API CORS configuration allows the Vite dev server origin.
+- [x] 5.3 Verify all TypeScript compiles without errors (`tsc --noEmit` in both apps).
+- [x] 5.4 Run lint and format passes (ESLint + Prettier).
+- [x] 5.5 Update `README.md` with setup instructions and a one-liner to start the project.
