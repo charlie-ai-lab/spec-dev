@@ -44,8 +44,20 @@
   "hotPaths": [
     {
       "path": "specs\\2026-04-17-agent-health-foundation\\plan.md",
-      "accessCount": 6,
-      "lastAccessed": 1776410404570,
+      "accessCount": 8,
+      "lastAccessed": 1776411154432,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\pages\\AgentDetailPage.tsx",
+      "accessCount": 8,
+      "lastAccessed": 1776412416681,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\pages\\AgentsPage.tsx",
+      "accessCount": 7,
+      "lastAccessed": 1776412459667,
       "type": "file"
     },
     {
@@ -67,6 +79,12 @@
       "type": "file"
     },
     {
+      "path": "apps\\web\\src\\hooks\\useAilments.ts",
+      "accessCount": 3,
+      "lastAccessed": 1776412396826,
+      "type": "file"
+    },
+    {
       "path": "apps\\api\\src\\index.ts",
       "accessCount": 2,
       "lastAccessed": 1776410553845,
@@ -76,6 +94,18 @@
       "path": "apps\\api\\src\\db\\client.ts",
       "accessCount": 2,
       "lastAccessed": 1776410631848,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\hooks\\useTherapies.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776412332665,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\hooks\\useAgents.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776412388591,
       "type": "file"
     },
     {
@@ -256,6 +286,60 @@
       "path": "apps\\api\\vitest.config.ts",
       "accessCount": 1,
       "lastAccessed": 1776410718199,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\api\\client.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776411254763,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\components\\Badge.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776411323347,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\components\\Button.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776411324070,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\components\\Modal.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776411324750,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\components\\FormInput.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776411325410,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\components\\FormSelect.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776411326085,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\components\\DataTable.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776411326769,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\components\\Layout.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776411327391,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\pages\\AilmentsPage.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776412244808,
       "type": "file"
     }
   ],
