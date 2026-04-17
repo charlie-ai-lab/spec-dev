@@ -13,7 +13,7 @@
 ### Backend Tests
 - [x] `vitest run` in `apps/api` passes all 6 test suites.
 
-### API Manual Tests (via curl)
+### API Manual Tests (via curl with `pnpm dev` running)
 - [x] `GET /health` returns 200 `{"status":"ok"}`
 - [x] `POST /agents` returns 201 with UUID id
 - [x] `GET /agents/:id` returns 200 with ailments and therapies arrays
@@ -21,6 +21,11 @@
 - [x] `POST /therapies` with non-existent agentId returns 404
 - [x] `PATCH /ailments/:id` with `status: "closed"` sets `closedAt` to non-null timestamp
 - [x] `DELETE /agents/:id` cascades and removes related ailments and therapies
+
+### Edge Case Tests
+- [x] `GET /agents/non-existent-id` returns 404 `{"error":"Agent not found"}`
+- [x] Empty string validation returns 400 with human-readable error
+- [x] Invalid enum value returns 400 with specific allowed values shown
 
 ## Manual Walkthrough (Browser Required)
 
@@ -48,6 +53,7 @@
 ## Definition of Done
 
 - [x] All automated checks pass.
+- [x] API manual tests pass (verified via curl).
 - [ ] Manual frontend walkthrough completes without errors.
 - [ ] Dashboard renders correctly in Chrome, Firefox, and Edge.
 - [ ] Operator can register an agent, log an ailment, and record a therapy in under 2 minutes.
