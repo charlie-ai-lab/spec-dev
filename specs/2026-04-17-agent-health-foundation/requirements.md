@@ -16,6 +16,7 @@
 - Marketing landing page and analytics charts (Phase 3).
 - Real-time updates via WebSocket.
 - External integrations or webhooks.
+- DELETE endpoints for ailments and therapies (cascading via FK constraints is defined at DB level; no application-level DELETE routes for these resources in Phase 1).
 
 ## Data Model
 
@@ -63,6 +64,7 @@
 | Styling approach | Tailwind CSS + custom color tokens | Supports "functions and visuals equally" goal; fast iteration without leaving JSX |
 | Timestamps | INTEGER (Unix ms) | Simple, sortable, and language-agnostic |
 | IDs | UUID v4 (TEXT) | Avoids sequential ID leaks; easy to generate in JS or SQLite |
+| Cascade deletion | DB-level FK constraints with `PRAGMA foreign_keys = ON` | Deleting an agent cascades to its ailments and therapies; deleting an ailment cascades to its linked therapies (no application-level DELETE endpoints for these resources) |
 
 ## Context
 

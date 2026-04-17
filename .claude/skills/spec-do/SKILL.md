@@ -104,9 +104,20 @@ Once all tasks in a group are complete:
 - Ask user: "Ready to move to the next group?" or "Do you want to pause here?"
 - If pausing, create a checkpoint commit: `checkpoint: feature group <N> complete`
 
+### ⚠️ MANDATORY: Validation Gate
+
+**NO feature group may be marked complete, and the spec is NOT done until Step 6 (validation) passes.**
+
+Skipping validation is a constraint violation. If the user tries to end the session before validation:
+> "Validation has not been run yet. Spec implementation is incomplete until all checks pass."
+
+---
+
 ### 6. Run full validation
 
 Once all feature groups are complete, run validation from `specs/<SPEC>/validation.md`:
+
+**Prerequisite: All feature groups must be complete before running validation.**
 
 #### 6a. Automated validation
 ```bash
@@ -138,18 +149,25 @@ Manual validation checklist:
 
 #### 6c. Definition of done
 
-Verify all items in "Definition of Done":
+**All items must be checked before the spec is considered complete.**
+
 ```
 Definition of Done Checklist:
 - [ ] All feature groups completed
 - [ ] All automated tests pass
 - [ ] All manual validation passed
 - [ ] Code reviewed (if applicable)
-- [ ] CHANGELOG.md updated
+- [ ] CHANGELOG.md updated          ← Required by Step 7
 - [ ] No breaking changes introduced
 ```
 
+**If any item is unchecked, the spec is NOT complete. Do not report success.**
+
+---
+
 ### 7. Update changelog
+
+**⚠️ MANDATORY: Changelog update is required to complete the spec.**
 
 Run the changelog skill:
 
@@ -165,9 +183,13 @@ git add CHANGELOG.md
 git commit -m "docs: update changelog for spec implementation"
 ```
 
+**Without this commit, the spec is incomplete.**
+
 ### 8. Summary and merge readiness
 
-Report to user:
+**Precondition: Steps 6 and 7 must be complete before showing success.**
+
+If all checks passed and changelog is updated, report:
 ```
 ✅ Spec Implementation Complete
 
@@ -184,6 +206,16 @@ Next steps:
 1. Run final code review
 2. Merge to main
 3. Deploy
+```
+
+If validation or changelog is pending:
+```
+❌ Spec Implementation Incomplete
+
+Validation: [Status]
+Changelog: [Status]
+
+Cannot mark as complete until Steps 6 and 7 are finished.
 ```
 
 Suggest: "Shall I create a summary report for the merge commit?"

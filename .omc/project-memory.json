@@ -44,8 +44,8 @@
   "hotPaths": [
     {
       "path": "specs\\2026-04-17-agent-health-foundation\\plan.md",
-      "accessCount": 10,
-      "lastAccessed": 1776412522161,
+      "accessCount": 15,
+      "lastAccessed": 1776413122582,
       "type": "file"
     },
     {
@@ -61,21 +61,39 @@
       "type": "file"
     },
     {
+      "path": "specs\\2026-04-17-agent-health-foundation\\requirements.md",
+      "accessCount": 6,
+      "lastAccessed": 1776413122217,
+      "type": "file"
+    },
+    {
       "path": "apps\\api\\package.json",
-      "accessCount": 3,
-      "lastAccessed": 1776410133327,
+      "accessCount": 5,
+      "lastAccessed": 1776413923301,
+      "type": "file"
+    },
+    {
+      "path": "specs\\2026-04-17-agent-health-foundation\\validation.md",
+      "accessCount": 4,
+      "lastAccessed": 1776413122494,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\tests\\api.test.ts",
+      "accessCount": 4,
+      "lastAccessed": 1776413184764,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 4,
+      "lastAccessed": 1776413923335,
       "type": "file"
     },
     {
       "path": "apps\\api\\src\\tests\\setup.ts",
       "accessCount": 3,
       "lastAccessed": 1776410664541,
-      "type": "file"
-    },
-    {
-      "path": "apps\\api\\src\\tests\\api.test.ts",
-      "accessCount": 3,
-      "lastAccessed": 1776411085588,
       "type": "file"
     },
     {
@@ -86,14 +104,32 @@
     },
     {
       "path": "apps\\api\\src\\index.ts",
-      "accessCount": 2,
-      "lastAccessed": 1776410553845,
+      "accessCount": 3,
+      "lastAccessed": 1776413177452,
       "type": "file"
     },
     {
       "path": "apps\\api\\src\\db\\client.ts",
-      "accessCount": 2,
-      "lastAccessed": 1776410631848,
+      "accessCount": 3,
+      "lastAccessed": 1776413447142,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\package.json",
+      "accessCount": 3,
+      "lastAccessed": 1776413923278,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\tsconfig.json",
+      "accessCount": 3,
+      "lastAccessed": 1776413956115,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\tsconfig.json",
+      "accessCount": 3,
+      "lastAccessed": 1776413956183,
       "type": "file"
     },
     {
@@ -109,57 +145,75 @@
       "type": "file"
     },
     {
-      "path": "package.json",
+      "path": "apps\\api\\src\\routes\\ailments.ts",
       "accessCount": 2,
-      "lastAccessed": 1776412556806,
+      "lastAccessed": 1776413177263,
       "type": "file"
     },
     {
-      "path": "specs\\2026-04-17-agent-health-foundation\\requirements.md",
-      "accessCount": 1,
-      "lastAccessed": 1776408403956,
+      "path": "apps\\api\\src\\routes\\agents.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776413177364,
       "type": "file"
     },
     {
-      "path": "specs\\2026-04-17-agent-health-foundation\\validation.md",
-      "accessCount": 1,
-      "lastAccessed": 1776408403987,
+      "path": "apps\\api\\src\\routes\\therapies.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776413177524,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\schema\\agents.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776413177583,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\validators\\index.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776413177641,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\schema\\ailments.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776413184707,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\schema\\therapies.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776413184846,
       "type": "file"
     },
     {
       "path": "pnpm-workspace.yaml",
-      "accessCount": 1,
-      "lastAccessed": 1776408516358,
+      "accessCount": 2,
+      "lastAccessed": 1776413309918,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\schema\\index.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776413440966,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\migrate.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776413479291,
       "type": "file"
     },
     {
       "path": "tsconfig.base.json",
-      "accessCount": 1,
-      "lastAccessed": 1776408517727,
+      "accessCount": 2,
+      "lastAccessed": 1776413518609,
       "type": "file"
     },
     {
       "path": ".env.example",
       "accessCount": 1,
       "lastAccessed": 1776408519040,
-      "type": "file"
-    },
-    {
-      "path": "apps\\api\\tsconfig.json",
-      "accessCount": 1,
-      "lastAccessed": 1776408581132,
-      "type": "file"
-    },
-    {
-      "path": "apps\\web\\package.json",
-      "accessCount": 1,
-      "lastAccessed": 1776408581804,
-      "type": "file"
-    },
-    {
-      "path": "apps\\web\\tsconfig.json",
-      "accessCount": 1,
-      "lastAccessed": 1776408582416,
       "type": "file"
     },
     {
@@ -217,63 +271,9 @@
       "type": "file"
     },
     {
-      "path": "apps\\api\\src\\db\\schema\\agents.ts",
-      "accessCount": 1,
-      "lastAccessed": 1776410087156,
-      "type": "file"
-    },
-    {
-      "path": "apps\\api\\src\\db\\schema\\ailments.ts",
-      "accessCount": 1,
-      "lastAccessed": 1776410088081,
-      "type": "file"
-    },
-    {
-      "path": "apps\\api\\src\\db\\schema\\therapies.ts",
-      "accessCount": 1,
-      "lastAccessed": 1776410088850,
-      "type": "file"
-    },
-    {
-      "path": "apps\\api\\src\\db\\migrate.ts",
-      "accessCount": 1,
-      "lastAccessed": 1776410090459,
-      "type": "file"
-    },
-    {
       "path": "apps\\api\\src\\db\\seed.ts",
       "accessCount": 1,
       "lastAccessed": 1776410091154,
-      "type": "file"
-    },
-    {
-      "path": "apps\\api\\src\\db\\schema\\index.ts",
-      "accessCount": 1,
-      "lastAccessed": 1776410168626,
-      "type": "file"
-    },
-    {
-      "path": "apps\\api\\src\\validators\\index.ts",
-      "accessCount": 1,
-      "lastAccessed": 1776410551328,
-      "type": "file"
-    },
-    {
-      "path": "apps\\api\\src\\routes\\agents.ts",
-      "accessCount": 1,
-      "lastAccessed": 1776410552078,
-      "type": "file"
-    },
-    {
-      "path": "apps\\api\\src\\routes\\ailments.ts",
-      "accessCount": 1,
-      "lastAccessed": 1776410552659,
-      "type": "file"
-    },
-    {
-      "path": "apps\\api\\src\\routes\\therapies.ts",
-      "accessCount": 1,
-      "lastAccessed": 1776410553218,
       "type": "file"
     },
     {

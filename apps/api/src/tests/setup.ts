@@ -6,7 +6,7 @@ export async function createTestApp() {
   process.env.DATABASE_URL = ':memory:'
 
   const { db } = await import('../db/client')
-  migrate(db, { migrationsFolder: './src/db/migrations' })
+  migrate(db, { migrationsFolder: './apps/api/src/db/migrations' })
 
   const [{ agentsRoute }, { ailmentsRoute }, { therapiesRoute }] = await Promise.all([
     import('../routes/agents'),
