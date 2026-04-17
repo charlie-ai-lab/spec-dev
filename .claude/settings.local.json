@@ -6,7 +6,13 @@
       "Bash(git init:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(ls -d specs/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-*)",
+      "Bash(pnpm install:*)",
+      "Bash(pnpm:*)",
+      "Bash(git merge:*)",
+      "Bash(git stash:*)",
+      "Bash(npx vitest:*)"
     ]
   }
 }

@@ -1,0 +1,347 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1776408368898,
+  "projectRoot": "E:\\aiwork\\spec-dev\\sdd",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "specs": {
+      "path": "specs",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1776408368794,
+      "keyFiles": [
+        "mission.md",
+        "roadmap.md",
+        "tech-stack.md"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "specs\\2026-04-17-agent-health-foundation\\plan.md",
+      "accessCount": 15,
+      "lastAccessed": 1776413122582,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\pages\\AgentDetailPage.tsx",
+      "accessCount": 8,
+      "lastAccessed": 1776412416681,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\pages\\AgentsPage.tsx",
+      "accessCount": 7,
+      "lastAccessed": 1776412459667,
+      "type": "file"
+    },
+    {
+      "path": "specs\\2026-04-17-agent-health-foundation\\requirements.md",
+      "accessCount": 6,
+      "lastAccessed": 1776413122217,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\package.json",
+      "accessCount": 5,
+      "lastAccessed": 1776413923301,
+      "type": "file"
+    },
+    {
+      "path": "specs\\2026-04-17-agent-health-foundation\\validation.md",
+      "accessCount": 4,
+      "lastAccessed": 1776413122494,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\tests\\api.test.ts",
+      "accessCount": 4,
+      "lastAccessed": 1776413184764,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 4,
+      "lastAccessed": 1776413923335,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\tests\\setup.ts",
+      "accessCount": 3,
+      "lastAccessed": 1776410664541,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\hooks\\useAilments.ts",
+      "accessCount": 3,
+      "lastAccessed": 1776412396826,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\index.ts",
+      "accessCount": 3,
+      "lastAccessed": 1776413177452,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\client.ts",
+      "accessCount": 3,
+      "lastAccessed": 1776413447142,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\package.json",
+      "accessCount": 3,
+      "lastAccessed": 1776413923278,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\tsconfig.json",
+      "accessCount": 3,
+      "lastAccessed": 1776413956115,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\tsconfig.json",
+      "accessCount": 3,
+      "lastAccessed": 1776413956183,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\hooks\\useTherapies.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776412332665,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\hooks\\useAgents.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776412388591,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\routes\\ailments.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776413177263,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\routes\\agents.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776413177364,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\routes\\therapies.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776413177524,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\schema\\agents.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776413177583,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\validators\\index.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776413177641,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\schema\\ailments.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776413184707,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\schema\\therapies.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776413184846,
+      "type": "file"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "accessCount": 2,
+      "lastAccessed": 1776413309918,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\schema\\index.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776413440966,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\migrate.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776413479291,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.base.json",
+      "accessCount": 2,
+      "lastAccessed": 1776413518609,
+      "type": "file"
+    },
+    {
+      "path": ".env.example",
+      "accessCount": 1,
+      "lastAccessed": 1776408519040,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\vite.config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776408583061,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\tailwind.config.js",
+      "accessCount": 1,
+      "lastAccessed": 1776408583678,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\postcss.config.js",
+      "accessCount": 1,
+      "lastAccessed": 1776408584362,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\index.html",
+      "accessCount": 1,
+      "lastAccessed": 1776408608309,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\main.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776408609222,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\App.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776408610013,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\index.css",
+      "accessCount": 1,
+      "lastAccessed": 1776408610623,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\vite-env.d.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776408611247,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\drizzle.config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776410086193,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\seed.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776410091154,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\routes\\index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776410554431,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\vitest.config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776410718199,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\api\\client.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776411254763,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\components\\Badge.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776411323347,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\components\\Button.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776411324070,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\components\\Modal.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776411324750,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\components\\FormInput.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776411325410,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\components\\FormSelect.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776411326085,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\components\\DataTable.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776411326769,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\components\\Layout.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776411327391,
+      "type": "file"
+    },
+    {
+      "path": "apps\\web\\src\\pages\\AilmentsPage.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1776412244808,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

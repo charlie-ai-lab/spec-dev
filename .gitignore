@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.claude
+.codebuddy
+.omc
+
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+
+# Database
+data/
+*.db
+*.db-journal
+
+# IDE
+.vscode/
+.idea/
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
