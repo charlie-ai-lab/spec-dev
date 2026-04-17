@@ -43,6 +43,18 @@
   },
   "hotPaths": [
     {
+      "path": "specs\\2026-04-17-agent-health-foundation\\plan.md",
+      "accessCount": 4,
+      "lastAccessed": 1776409996531,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\package.json",
+      "accessCount": 3,
+      "lastAccessed": 1776410133327,
+      "type": "file"
+    },
+    {
       "path": "specs\\2026-04-17-agent-health-foundation\\requirements.md",
       "accessCount": 1,
       "lastAccessed": 1776408403956,
@@ -52,12 +64,6 @@
       "path": "specs\\2026-04-17-agent-health-foundation\\validation.md",
       "accessCount": 1,
       "lastAccessed": 1776408403987,
-      "type": "file"
-    },
-    {
-      "path": "specs\\2026-04-17-agent-health-foundation\\plan.md",
-      "accessCount": 1,
-      "lastAccessed": 1776408404006,
       "type": "file"
     },
     {
@@ -82,12 +88,6 @@
       "path": ".env.example",
       "accessCount": 1,
       "lastAccessed": 1776408519040,
-      "type": "file"
-    },
-    {
-      "path": "apps\\api\\package.json",
-      "accessCount": 1,
-      "lastAccessed": 1776408580240,
       "type": "file"
     },
     {
@@ -160,6 +160,54 @@
       "path": "apps\\api\\src\\index.ts",
       "accessCount": 1,
       "lastAccessed": 1776408611905,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\drizzle.config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776410086193,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\schema\\agents.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776410087156,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\schema\\ailments.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776410088081,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\schema\\therapies.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776410088850,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\client.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776410089747,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\migrate.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776410090459,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\seed.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776410091154,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\schema\\index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776410168626,
       "type": "file"
     }
   ],
