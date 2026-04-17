@@ -43,26 +43,26 @@
 
 ## 4. Frontend UI
 
-4.1 Set up React Router in `apps/web/src/main.tsx` with route definitions.
-4.2 Set up TanStack Query `QueryClientProvider`.
-4.3 Create shared layout component with top navigation (Agents, Ailments, Therapies) and footer.
-4.4 Build **Agents** page (`/agents`):
+- [x] 4.1 Set up React Router in `apps/web/src/main.tsx` with route definitions.
+- [x] 4.2 Set up TanStack Query `QueryClientProvider`.
+- [x] 4.3 Create shared layout component with top navigation (Agents, Ailments, Therapies) and footer.
+- [x] 4.4 Build **Agents** page (`/agents`):
   - Table listing agents with name, type, status, created date
   - "Add Agent" button opening a modal or navigating to `/agents/new`
   - Inline actions: edit, delete
-4.5 Build **Agent Detail** page (`/agents/:id`):
+- [x] 4.5 Build **Agent Detail** page (`/agents/:id`):
   - Agent profile card
   - Tabs or sections: Ailments and Therapies
   - Buttons to log a new ailment or record a new therapy
-4.6 Build **Ailments** page (`/ailments`):
+- [x] 4.6 Build **Ailments** page (`/ailments`):
   - Table listing all ailments with severity badge, status, agent name
   - Filter by status and severity
   - "Log Ailment" form
-4.7 Build **Therapies** page (`/therapies`):
+- [x] 4.7 Build **Therapies** page (`/therapies`):
   - Table listing therapies with result badge, method, agent name
   - "Record Therapy" form
-4.8 Add reusable components: `Badge`, `Button`, `Modal`, `FormInput`, `FormSelect`, `DataTable`.
-4.9 Wire all forms to the backend API with React Query mutations and optimistic updates where appropriate.
+- [x] 4.8 Add reusable components: `Badge`, `Button`, `Modal`, `FormInput`, `FormSelect`, `DataTable`.
+- [x] 4.9 Wire all forms to the backend API with React Query mutations and optimistic updates where appropriate.
 
 ## 5. Polish & Developer Experience
 
