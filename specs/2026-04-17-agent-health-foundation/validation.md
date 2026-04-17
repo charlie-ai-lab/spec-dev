@@ -27,7 +27,7 @@
 
 ## Manual Walkthrough
 
-> **Pending**: Requires running application (`pnpm dev`) and browser access.
+> **Partially Verified**: TypeScript checks and tests pass. Manual walkthrough pending.
 
 ### End-to-End Flow
 1. Run `pnpm dev` from the project root.
@@ -64,8 +64,8 @@
 
 ## Definition of Done
 
-- [x] All automated checks pass. *(Verified via code review)*
+- [x] All automated checks pass. *(tsc --noEmit passed for api and web; vitest 6/6 tests passed)*
 - [ ] Manual walkthrough completes without errors. *(Pending: requires running app)*
 - [ ] Dashboard renders correctly in Chrome, Firefox, and Edge (latest versions).
 - [ ] Operator can register an agent, log an ailment, and record a therapy in under 2 minutes.
-- [ ] Code is committed to the `phase-1-agent-health-foundation` branch.
+- [x] Code is committed to the `phase-1-agent-health-foundation` branch.
