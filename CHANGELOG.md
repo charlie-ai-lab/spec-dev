@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-04-17
+
+- docs: update validation with full pnpm dev verification results
+- docs: clarify validation.md structure in spec-create skill
+
 ## 2026-04-16
 
 - Initial commit
