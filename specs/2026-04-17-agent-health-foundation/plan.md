@@ -23,23 +23,23 @@
 
 ## 3. Backend API
 
-3.1 Scaffold Hono app in `apps/api/src/index.ts` with JSON parsing and error handling middleware.
-3.2 Implement `Agent` routes (`/agents`):
+- [x] 3.1 Scaffold Hono app in `apps/api/src/index.ts` with JSON parsing and error handling middleware.
+- [x] 3.2 Implement `Agent` routes (`/agents`):
   - `GET /agents` — list all agents (optionally with status filter)
   - `GET /agents/:id` — get agent details with related ailments and therapies
   - `POST /agents` — create agent (Zod validation)
   - `PATCH /agents/:id` — update agent fields
   - `DELETE /agents/:id` — remove agent and cascade related records
-3.3 Implement `Ailment` routes (`/ailments`):
+- [x] 3.3 Implement `Ailment` routes (`/ailments`):
   - `GET /ailments` — list ailments (with agent name joined)
   - `POST /ailments` — create ailment for an agent
   - `PATCH /ailments/:id` — update severity or status; if status → "closed", set `closedAt`
-3.4 Implement `Therapy` routes (`/therapies`):
+- [x] 3.4 Implement `Therapy` routes (`/therapies`):
   - `GET /therapies` — list therapies (with agent and ailment names joined)
   - `POST /therapies` — create therapy linked to agent and optional ailment
   - `PATCH /therapies/:id` — update result or notes
-3.5 Add centralized error handler returning `{ error: string }` with appropriate HTTP status codes.
-3.6 Write Vitest tests for all route handlers covering happy path and validation errors.
+- [x] 3.5 Add centralized error handler returning `{ error: string }` with appropriate HTTP status codes.
+- [x] 3.6 Write Vitest tests for all route handlers covering happy path and validation errors.
 
 ## 4. Frontend UI
 
