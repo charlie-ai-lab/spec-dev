@@ -9,7 +9,9 @@
       "Bash(git checkout:*)",
       "Bash(ls -d specs/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]-*)",
       "Bash(pnpm install:*)",
-      "Bash(pnpm:*)"
+      "Bash(pnpm:*)",
+      "Bash(git merge:*)",
+      "Bash(git stash:*)"
     ]
   }
 }
