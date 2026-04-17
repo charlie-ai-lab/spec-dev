@@ -2,13 +2,13 @@
 
 ## 1. Project Scaffold & Tooling
 
-1.1 Initialize monorepo root with `pnpm-workspace.yaml` (packages: `apps/*`).
-1.2 Add root `package.json` with shared scripts: `dev`, `build`, `test`, `lint`, `typecheck`.
-1.3 Create `apps/api` directory and install dependencies: `hono`, `@hono/node-server`, `drizzle-orm`, `better-sqlite3`, `zod`, `uuid`, `@types/uuid`.
-1.4 Create `apps/web` directory with Vite React + TypeScript + Tailwind CSS template.
-1.5 Install web dependencies: `react-router-dom`, `@tanstack/react-query`, `axios` (or native `fetch` wrapper), `zod`.
-1.6 Configure shared TypeScript `base.json` and extend it in both apps.
-1.7 Add root `.gitignore` and environment variable templates (`.env.example`).
+- [x] 1.1 Initialize monorepo root with `pnpm-workspace.yaml` (packages: `apps/*`).
+- [x] 1.2 Add root `package.json` with shared scripts: `dev`, `build`, `test`, `lint`, `typecheck`.
+- [x] 1.3 Create `apps/api` directory and install dependencies: `hono`, `@hono/node-server`, `drizzle-orm`, `better-sqlite3`, `zod`, `uuid`, `@types/uuid`.
+- [x] 1.4 Create `apps/web` directory with Vite React + TypeScript + Tailwind CSS template.
+- [x] 1.5 Install web dependencies: `react-router-dom`, `@tanstack/react-query`, `axios` (or native `fetch` wrapper), `zod`.
+- [x] 1.6 Configure shared TypeScript `base.json` and extend it in both apps.
+- [x] 1.7 Add root `.gitignore` and environment variable templates (`.env.example`).
 
 ## 2. Database & Schema
 
