@@ -44,14 +44,38 @@
   "hotPaths": [
     {
       "path": "specs\\2026-04-17-agent-health-foundation\\plan.md",
-      "accessCount": 4,
-      "lastAccessed": 1776409996531,
+      "accessCount": 6,
+      "lastAccessed": 1776410404570,
       "type": "file"
     },
     {
       "path": "apps\\api\\package.json",
       "accessCount": 3,
       "lastAccessed": 1776410133327,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\tests\\setup.ts",
+      "accessCount": 3,
+      "lastAccessed": 1776410664541,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\tests\\api.test.ts",
+      "accessCount": 3,
+      "lastAccessed": 1776411085588,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\index.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776410553845,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\db\\client.ts",
+      "accessCount": 2,
+      "lastAccessed": 1776410631848,
       "type": "file"
     },
     {
@@ -157,12 +181,6 @@
       "type": "file"
     },
     {
-      "path": "apps\\api\\src\\index.ts",
-      "accessCount": 1,
-      "lastAccessed": 1776408611905,
-      "type": "file"
-    },
-    {
       "path": "apps\\api\\drizzle.config.ts",
       "accessCount": 1,
       "lastAccessed": 1776410086193,
@@ -187,12 +205,6 @@
       "type": "file"
     },
     {
-      "path": "apps\\api\\src\\db\\client.ts",
-      "accessCount": 1,
-      "lastAccessed": 1776410089747,
-      "type": "file"
-    },
-    {
       "path": "apps\\api\\src\\db\\migrate.ts",
       "accessCount": 1,
       "lastAccessed": 1776410090459,
@@ -208,6 +220,42 @@
       "path": "apps\\api\\src\\db\\schema\\index.ts",
       "accessCount": 1,
       "lastAccessed": 1776410168626,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\validators\\index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776410551328,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\routes\\agents.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776410552078,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\routes\\ailments.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776410552659,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\routes\\therapies.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776410553218,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\src\\routes\\index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776410554431,
+      "type": "file"
+    },
+    {
+      "path": "apps\\api\\vitest.config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1776410718199,
       "type": "file"
     }
   ],
