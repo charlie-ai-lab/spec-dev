@@ -3,3 +3,4 @@
 .omc
 package-lock*.json
 package.json
+.omc/project-memory.json

@@ -1,0 +1,29 @@
+{
+  "name": "charlie-spec-marketplace",
+  "owner": {
+    "name": "charlie"
+  },
+  "plugins": [
+    {
+      "name": "spec-dev",
+      "source": "./",
+      "description": "Spec-Driven Development skills for Claude Code, inspired by Andrew Ng. Structured workflow from project init to feature delivery.",
+      "version": "1.0.0",
+      "author": {
+        "name": "charlie"
+      },
+      "license": "MIT",
+      "keywords": [
+        "spec-driven-development",
+        "sdd",
+        "spec",
+        "development-workflow",
+        "andrew-ng",
+        "project-management",
+        "feature-spec",
+        "code-review",
+        "changelog"
+      ]
+    }
+  ]
+}
