@@ -188,7 +188,7 @@ main
 
 ```bash
 # 添加 marketplace
-claude plugin marketplace add your-org/spec-dev-skills
+claude plugin marketplace add charlie-ai-lab/spec-dev
 
 # 安装 plugin
 claude plugin install spec-dev
@@ -196,7 +196,7 @@ claude plugin install spec-dev
 
 或在 Claude Code 会话内：
 ```
-/plugin marketplace add your-org/spec-dev-skills
+/plugin marketplace add charlie-ai-lab/spec-dev
 /plugin install spec-dev
 ```
 
