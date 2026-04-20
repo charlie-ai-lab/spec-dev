@@ -17,11 +17,5 @@
     "code-review",
     "changelog"
   ],
-  "skills": "./skills/",
-  "commands": [],
-  "agents": [],
-  "hooks": "",
-  "mcpServers": "",
-  "lspServers": "",
-  "outputStyles": ""
+  "skills": "./skills/"
 }
