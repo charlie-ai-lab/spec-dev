@@ -1,62 +1,154 @@
 ---
 name: spec-todo
-description: Creates or updates specs constitution docs (mission.md, tech-stack.md, roadmap.md) from an existing project. Triggers when user says "spec todo", "create todo specs", "initialize todo specs", "generate todo specs", or asks to create specification documents for a existsing project. This skill reads project files directly and generates docs with minimal or no questions.
+description: Creates or updates specs constitution docs (mission.md, tech-stack.md, roadmap.md) from an existing project. Triggers when user says "spec todo", "create todo specs", "initialize todo specs", "generate todo specs", or asks to create specification documents for an existing project. This skill reads project files directly and generates docs with minimal or no questions.
 ---
 
 # Spec Todo
 
-Creates constitution docs from an existing project by reading its files.
+Builds constitution documents from an existing project. Performs comprehensive scanning based on README.md and project files, marks all phases as completed by default, and builds pending phases from TODO.md.
 
 ## Workflow
 
-### 1. Read project files
+### Step 1: Comprehensive Project Scan
+
+Read files in priority order to extract constitution-building information:
 
 ```
-README.md
-specs/mission.md (existing, if any)
-specs/tech-stack.md (existing, if any)
-specs/roadmap.md (existing, if any)
+Scan Priority:
+1. README.md                 → Project positioning, tech stack, feature descriptions
+2. package.json              → Project name, dependencies, scripts
+3. .omc/project-memory.json  → Scanned project structure
+4. specs/*.md (existing)     → Existing constitution
+5. skills/*/SKILL.md         → Project feature modules
+6. git log --oneline         → Recent development history
+7. Other config files        → Technical details
 ```
 
-### 2. Extract key information
+### Step 2: Generate Constitution Documents
 
-| Info | Source |
-|------|--------|
-| Project name & positioning | README.md first paragraph |
-| Tech stack | README.md + package.json |
-| Target users | README.md or code |
-| Existing roadmap | specs/roadmap.md (if exists) |
-| In-progress/completed work | Code or conversation context |
+Create three files in `specs/`:
 
-### 3. Generate Constitution Docs
+#### mission.md — Project Mission
 
-In `specs/`:
+```markdown
+# Mission
 
-#### `mission.md`
-- Core mission and value proposition
-- Target users (from README)
-- Success metrics/KPIs
+## Core Mission
+[One-sentence summary of project's core mission]
 
-#### `tech-stack.md`
-- Backend, frontend, dev tools tables
-- Deployment approach
-- Constraints and non-goals
+## Value Proposition
+[3-5 value propositions]
 
-#### `roadmap.md`
-- Phased delivery based on existing specs/roadmap.md or TODO.md
-- Each phase: goal, deliverables, dependencies, success criteria
-- Keep phases small (1-3 weeks each)
+## Target Users
+- [User segment 1]
+- [User segment 2]
 
-### 4. Questions (only if needed)
+## Success Metrics / KPIs
+- [KPI 1]
+- [KPI 2]
 
-Ask **max 3 grouped questions** only if critical info is missing and cannot be inferred from project files.
+## Why This Project Exists
+[Reason the project exists]
+```
 
-### 5. Write to disk
+#### tech-stack.md — Tech Stack
 
-Create or update files in `specs/` directory.
+```markdown
+# Tech Stack
 
-## Notes
+## Languages
+| Language | Version | Purpose |
+|----------|---------|---------|
+| [Lang]   | [Ver]   | [Use]   |
 
-- Prefer reading project files over asking questions
-- If specs/ already exists and is complete, skip to confirming what needs updating
-- Keep mission.md focused on the "why", tech-stack.md on the "how", roadmap.md on the "what and when"
+## Frameworks & Libraries
+| Framework | Version | Purpose |
+|-----------|---------|---------|
+| [FW]      | [Ver]   | [Use]   |
+
+## Dev Tools
+| Tool | Purpose |
+|------|---------|
+| [Tool] | [Use]   |
+
+## Deployment
+[Deployment approach and platform]
+
+## Constraints & Non-Goals
+### Constraints
+- [Constraint 1]
+
+### Non-Goals
+- [Non-goal 1]
+```
+
+#### roadmap.md — Roadmap
+
+**Core Rule: All phases marked as ✅ Completed by default**
+
+```markdown
+# Roadmap
+
+## Phases
+
+### Phase 1: [Completed Phase Name]
+- **Status**: ✅ Completed
+- **Goal**: [Phase goal]
+- **Deliverables**: [Deliverables]
+- **Success Criteria**: [Success criteria]
+
+<!-- Additional completed phases discovered -->
+
+### Phase N: [Pending Phase Name]
+- **Status**: ⬜ Pending
+- **Goal**: [Phase goal]
+- **Deliverables**: [Deliverables]
+- **Dependencies**: [Dependencies]
+- **Success Criteria**: [Success criteria]
+
+---
+**Last Updated**: YYYY-MM-DD
+```
+
+### Step 3: Handle TODO.md
+
+```
+IF project has TODO.md:
+    Read TODO.md content
+    Convert each TODO.md entry into a Pending Phase in roadmap.md
+    Use TODO.md's structured info to populate pending phase details
+ELSE:
+    Infer pending phases from README.md's described feature roadmap
+    If README has no roadmap, roadmap only contains completed phases
+```
+
+### Step 4: Write Files
+
+Create or update in `specs/`:
+- `specs/mission.md`
+- `specs/tech-stack.md`
+- `specs/roadmap.md`
+
+If `specs/` already exists, confirm with user before overwriting.
+
+## Constraints
+
+1. **Prefer reading files** — Minimize questions, at most 1 clarifying question
+2. **Completed first** — All phases discovered from git log/README/project files marked as completed
+3. **TODO-driven pending** — Pending phases strictly read from TODO.md
+4. **English output** — All documents use English punctuation and formatting
+5. **Idempotent execution** — On repeated runs, only update changed parts
+
+## Output Format
+
+```
+✅ Constitution documents created:
+
+specs/
+├── mission.md      # Project mission and value proposition
+├── tech-stack.md   # Tech stack details
+└── roadmap.md      # Phase roadmap (N phases, M completed)
+
+Completed phases: [X]
+Pending phases: [Y]
+```
