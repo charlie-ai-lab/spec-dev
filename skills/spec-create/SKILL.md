@@ -1,6 +1,6 @@
 ---
 name: spec-create
-description: Kicks off a new feature by finding the next incomplete phase in specs/roadmap.md, creating a git branch, interviewing the user about scope/decisions/context, and writing a dated spec directory under specs/ containing plan.md, requirements.md, and validation.md. Trigger when the user says "spec create", "next phase", "start the next feature", or invokes /spec-create.
+description: Kicks off a new feature by finding the next incomplete phase in specs/roadmap.md, creating a git branch, interviewing the user about scope/decisions/context, and writing a dated spec directory under specs/ containing plan.md, requirements.md, and validation.md. Trigger when the user says "spec create", "create phase", "start the create feature", or invokes /spec-create.
 ---
 
 # Spec Create
@@ -47,10 +47,9 @@ Name: `specs/YYYY-MM-DD-<feature-name>/` using today's date.
 - Each group has numbered sub-tasks; groups should be independently implementable
 
 #### `validation.md`
-- Automated: project test and typecheck commands pass; specific assertions required
-- Manual: walkthrough, behaviour, edge cases
-- Tone check if the feature has user-facing copy
-- Definition of done
+- **Automated**: all items that can be verified by running commands, scripts, or automated tests (e.g., `tsc`, `pnpm lint`, `pnpm test`, API curl tests, log inspection). Include specific assertions and actual command output.
+- **Manual (Browser Required)**: only items that truly require human visual confirmation in a browser (e.g., E2E walkthrough, UI rendering, cross-browser check). Do NOT list things like "run lint" or "check tests" here.
+- **Definition of Done**: checklist of what "done" means for this feature
 
 ## Constraints
 

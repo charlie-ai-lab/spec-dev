@@ -8,7 +8,7 @@
       "name": "spec-dev",
       "source": "./",
       "description": "Spec-Driven Development skills for Claude Code, inspired by Andrew Ng. Structured workflow from project init to feature delivery.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "charlie"
       },
