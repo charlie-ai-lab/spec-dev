@@ -1,0 +1,27 @@
+{
+  "name": "spec-dev",
+  "version": "1.0.0",
+  "description": "Spec-Driven Development skills for Claude Code, inspired by Andrew Ng. Structured workflow from project init to feature delivery.",
+  "author": {
+    "name": "charlie"
+  },
+  "license": "MIT",
+  "keywords": [
+    "spec-driven-development",
+    "sdd",
+    "spec",
+    "development-workflow",
+    "andrew-ng",
+    "project-management",
+    "feature-spec",
+    "code-review",
+    "changelog"
+  ],
+  "skills": "./skills/",
+  "commands": [],
+  "agents": [],
+  "hooks": "",
+  "mcpServers": "",
+  "lspServers": "",
+  "outputStyles": ""
+}

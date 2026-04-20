@@ -12,7 +12,8 @@
       "Bash(pnpm:*)",
       "Bash(git merge:*)",
       "Bash(git stash:*)",
-      "Bash(npx vitest:*)"
+      "Bash(npx vitest:*)",
+      "WebSearch"
     ]
   }
 }
